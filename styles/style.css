@@ -54,14 +54,6 @@ a {
     display: flex;
 }
 
-#top_logo, #login {
-    flex-grow: 0.5;
-}
-
-#top_logo {
-    width: 80px;
-}
-
 #top_nav {
     padding: 5px;
     list-style: none;
@@ -115,6 +107,9 @@ h1 {
 
 
 
+
+
+
 .main_section {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -137,13 +132,34 @@ h1 {
 
 #section1_content_left, #section2_content_right, #section3_content_left {
     flex-grow: 1.5;
-    background-color: #3690FF;
 }
 
 #section1_content_right, #section2_content_left, #section3_content_right {
     flex-grow: 1;
-    background-color: #F7C0CB;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
+
+h2 {
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+.p_main {
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
 
 #section4_content {
     max-width: 980px;
