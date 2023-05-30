@@ -34,6 +34,11 @@ a {
     background-color: #23272A;
 }
 
+.btn_purple {
+    color: #F1FFFF;
+    background-color: #7289DA;
+}
+
 .border_black {
     border: 1px dashed black;
 }
@@ -104,12 +109,6 @@ h1 {
     margin: 0.5rem;
 }
 
-
-
-
-
-
-
 .main_section {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -125,7 +124,6 @@ h1 {
 
 .section_content {
     max-width: 980px;
-    min-height: 400px;
     margin: auto;
     display: flex;
 }
@@ -158,14 +156,33 @@ h2 {
 
 
 
-
-
 #section4_content {
     max-width: 980px;
     min-height: 700px;
     margin: auto;
-    background-color: #3A8B22;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+#section4_content > p:nth-child(2) {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+#button_wrapper {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+
+
+
+
+
 
 #footer_top, #footer_bottom {
     background-color: #23272A;
@@ -221,6 +238,4 @@ h2 {
     background-color: #F5B5C0;
 }
 
-/* Could have done better with some 
-css advanced selectors?? */
 
