@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .white_text {
     color: #FCF9FE;
 }
@@ -61,7 +65,6 @@ a {
 
 #top_nav {
     padding: 5px;
-    list-style: none;
     text-align: center;
     flex-grow: 3;
     display: flex;
@@ -187,18 +190,17 @@ h4 {
 
 #footer_section1 {
     max-width: 980px;
-    min-height: 400px;
     margin: auto;
     display: flex;
 }
 
 #footer_top_left {
-    flex-grow: 1;
-    background-color: #F08080;
+    flex-grow: -1;
 }
 
 h3 {
     padding-left: 0.5rem;
+    padding-right: 1rem;
     padding-bottom: 1rem;
     font-size: 1.6rem;
     color: #7289DB;
@@ -222,15 +224,6 @@ h3 {
     padding-left: 0.5rem;
 }
 
-
-
-
-
-
-
-
-
-
 #footer_nav {
     flex-grow: 5;
     display: flex;
@@ -238,12 +231,29 @@ h3 {
 
 .section_footer_nav {
     flex-grow: 1;
-    background-color: #4BB2AA;
+}
+
+.section_footer_nav li {
+    padding: 0.5rem;
+}
+
+.section_footer_nav li:first-child {
+    color: #7289DB;
 }
 
 #hr2 {
-    border: 1px solid #C0C0C0;
+    padding-left: 10px;
+    border: 1px solid #7289DB;
 }
+
+/* its a div!!! */
+
+
+
+
+
+
+
 
 #footer_bottom {
     padding-top: 15px;
