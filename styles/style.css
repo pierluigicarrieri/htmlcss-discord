@@ -137,7 +137,6 @@ h1 {
 #section1_content_right, #section2_content_left, #section3_content_right {
     flex-grow: 1;
     padding-left: 1rem;
-    padding-right: 1rem;
 }
 
 h2 {
