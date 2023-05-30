@@ -152,7 +152,6 @@ h2 {
 
 #section4_content {
     max-width: 980px;
-    min-height: 700px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -181,14 +180,15 @@ h4 {
 
 
 
-
 #footer_top, #footer_bottom {
+    font-size: 15px;
+    color: #FFFFFF;
     background-color: #23272A;
 }
 
 #footer_top {
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 #footer_section1 {
@@ -203,8 +203,26 @@ h4 {
     background-color: #F08080;
 }
 
+h3 {
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+#lang_selection span, img {
+    vertical-align: middle;
+}
+
+#lang_selection > img {
+    width: 30px;
+}
+
+
+
+
+
+
 #footer_nav {
-    flex-grow: 2.5;
+    flex-grow: 5;
     display: flex;
 }
 
