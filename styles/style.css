@@ -187,7 +187,8 @@ h4 {
 }
 
 #footer_top_left {
-    flex-grow: -1;
+    flex-grow: 1;
+    width: 25%;
 }
 
 h3 {
