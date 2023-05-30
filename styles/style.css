@@ -13,7 +13,12 @@ a {
     color: #FCF9FE;
 }
 
+.centered_text {
+    text-align: center;
+}
+
 .btn {
+    padding: 0.5rem;
     border-style: none;
     border-radius: 15px;
     font-size: 15px;
@@ -22,6 +27,11 @@ a {
 .btn_white {
     color: #424747;
     background-color: #FFFFFF;
+}
+
+.btn_black {
+    color: #F3FAFE;
+    background-color: #23272A;
 }
 
 .border_black {
@@ -48,9 +58,9 @@ a {
     flex-grow: 0.5;
 }
 
- #top_logo {
+#top_logo {
     width: 80px;
- }
+}
 
 #top_nav {
     padding: 5px;
@@ -68,29 +78,42 @@ a {
     font-size: 15px;
 }
 
-
-
-
-
-
-
-
 header {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #01038B;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
 #header_section {
-    max-width: 800px;
-    min-height: 300px;
+    max-width: 700px;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin: auto;
-    background-color: #EE82EE
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#hr1 {
-    border: 1px solid #A0D2E1;
+h1 {
+    padding: 1.5rem;
+    font-size: 2.5rem;
 }
+
+#p_header {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.btn_header {
+    margin: 0.5rem;
+}
+
+
+
 
 .main_section {
     padding-top: 30px;
