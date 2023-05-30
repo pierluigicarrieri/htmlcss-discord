@@ -174,12 +174,6 @@ h4 {
     padding-bottom: 4rem;
 }
 
-
-
-
-
-
-
 #footer_top, #footer_bottom {
     font-size: 15px;
     color: #FFFFFF;
@@ -204,8 +198,15 @@ h4 {
 }
 
 h3 {
+    padding-left: 0.5rem;
     padding-bottom: 1rem;
     font-size: 1.6rem;
+    color: #7289DB;
+}
+
+#lang_selection {
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 #lang_selection span, img {
@@ -215,6 +216,15 @@ h3 {
 #lang_selection > img {
     width: 30px;
 }
+
+.icon {
+    width: 30px;
+    padding-left: 0.5rem;
+}
+
+
+
+
 
 
 
