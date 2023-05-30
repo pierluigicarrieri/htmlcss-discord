@@ -43,14 +43,6 @@ ul {
     background-color: #7289DA;
 }
 
-.border_black {
-    border: 1px dashed black;
-}
-
-.border_white {
-    border: 1px dashed white;
-}
-
 #top_wrapper {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -241,37 +233,23 @@ h3 {
     color: #7289DB;
 }
 
-#hr2 {
-    padding-left: 10px;
-    border: 1px solid #7289DB;
-}
-
-/* its a div!!! */
-
-
-
-
-
-
-
-
 #footer_bottom {
     padding-top: 15px;
 }
 
 #footer_section2 {
     max-width: 980px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-top: 3px solid #4F5D8C;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    background-color: #7FFFD4;
 }
 
-#bottom_logo, #bottone {
-    padding: 2px;
-    background-color: #F5B5C0;
+#bottom_logo {
+    width: 100px;
 }
+
 
 
